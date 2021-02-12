@@ -36,6 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 Semantic HTML is using elements that describes its content so that its readable to the browser and developer.
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
 Display block takes the full width of available unlike inline which only takes up the space needed.
 Another difference is that display: inline; does not respect a width/height but display:block; will.
 
@@ -43,9 +44,11 @@ Another difference is that display: inline; does not respect a width/height but 
 The CSS box model consists of 4 parts Content/Padding/Border/ and margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
 Using flexbox align-items:center; works on the cross axis.
 
 5. Explain why git is valuable to a team of developers.
+
 Git is valuable to a team of developers to be able to work together because it can get messy when a lot of people are working on a project. Git helps every developer keep track of versions of there builds and this helps as a team incase theres any errors in a newer version you can revert to another to a specific build by a specific developer so if something breaks you can problem solve a lot faster with VSC using git.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -92,10 +95,10 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ x] Copy and paste your home page navigation and header into the about page
+* [ x] Update the header image with the about page image
+* [x ] Link the `Home` navigation item back to the `index.html` page.
+* [ x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
