@@ -68,19 +68,33 @@ p {
 nav{
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
 }
 .links{
-    width:70%;
+    width:80%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     align-items:center;
     
 }
 .links a{
     text-decoration: none;
     color: black;
+}
+.hero{
+    
+    background-image: url(/img/jumbo.jpg);
+    text-align: center;
+    width: 90%;
+    color: white;
+    background-size: cover;
+    padding: 6%;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+    
 }
 
 .container {
@@ -174,8 +188,9 @@ nav{
 }
 
 footer {
-    width: 100%;
+    width: 97%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
