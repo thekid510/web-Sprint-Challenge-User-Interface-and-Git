@@ -201,7 +201,7 @@ nav{
 }
 
 footer {
-    width: 97%;
+    width: 95%;
     background: black;
     margin: 0 auto;
 }
@@ -219,23 +219,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-    
-     
+.box{
+   width: 35%;
     
 }
-.containerab img{
-    width: 30%;
-}
-.topof0{
-    width: 25%;
+.topof0 {
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px dotted black;
+   
+    
+    
+}  
+     
+.gallery{
+    display: flex;
+    margin: 0 auto;
 }
-.topof1{
-    width: 25%;
-}
+
 .text-bottom{
-    margin: 1%;
+    margin: 2%;
+    padding: 1%;
 }
 .jumbotext{
     margin: 2%;
