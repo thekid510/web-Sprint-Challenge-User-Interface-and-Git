@@ -70,9 +70,10 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items:center;
+    padding: 1%;
 }
 .links{
-    width:80%;
+    width:90%;
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -82,14 +83,14 @@ nav{
     text-decoration: none;
     color: black;
 }
-.hero{
+.jumbotron{
     
     background-image: url(/img/jumbo.jpg);
     text-align: center;
-    width: 90%;
+    width: 95%;
     color: white;
     background-size: cover;
-    padding: 6%;
+    padding: 7%;
     margin: 10px auto;
     background-repeat: no-repeat;
     background-position: center top;
