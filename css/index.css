@@ -65,6 +65,50 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+nav{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1%;
+}
+.links{
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.jumbotron{
+    
+    background-image: url(/img/jumbo.jpg);
+    text-align: center;
+    width: 95%;
+    color: white;
+    background-size: cover;
+    padding: 7%;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+    
+.jumbotron2{
+    
+    background-image: url(/img/jumbo-about.png);
+    text-align: center;
+    width: 95%;
+    color: white;
+    background-size: cover;
+    padding: 7%;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
 
 .container {
     width: 800px;
@@ -111,6 +155,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -127,8 +201,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 95%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -143,4 +218,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box{
+   width: 35%;
+    margin: 1%;
+}
+.topof0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+
+    
+}  
+.boxtext{
+    width: 90%;
+    border-bottom: 1px dotted black;
+
+
+}
+.boxtext p{
+    width: 70%;
+}
+     
+.gallery{
+    display: flex;
+    margin: 0 auto;
+}
+.gallery2{
+    display: flex;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-bottom{
+    margin: 2%;
+    padding: 2%;
+}
+.jumbotext{
+    margin: 2%;
+    padding: 1%;
+    border-bottom: 1px dotted black;
+}
+.gallery button{
+    background-color: white;
+    color: black;
+    border-radius: 9%;
+    padding: 2%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    
+}
+.gallery2 button{
+    background-color: white;
+    color: black;
+    border-radius: 9%;
+    padding: 2%;
+    margin-bottom: 4%;
+    margin-top: 3%;
 }
