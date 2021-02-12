@@ -96,7 +96,19 @@ nav{
     background-position: center top;
 }
     
+.jumbotron2{
+    
+    background-image: url(/img/jumbo-about.png);
+    text-align: center;
+    width: 95%;
+    color: white;
+    background-size: cover;
+    padding: 7%;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-position: center ;
 }
+
 
 .container {
     width: 800px;
@@ -206,4 +218,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+    
+     
+    
+}
+.containerab img{
+    width: 30%;
+}
+.topof0{
+    width: 25%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.topof1{
+    width: 25%;
+}
+.text-bottom{
+    margin: 1%;
+}
+.jumbotext{
+    margin: 2%;
+    padding: 1%;
+    border-bottom: 1px dotted black;
 }
